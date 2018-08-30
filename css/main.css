@@ -1,0 +1,108 @@
+header {
+    background-color: #02b3b7;
+    background-image: url(../img/header_bg.png);
+    background-position: top;
+    height: 1015px;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.tuner {
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.tuner p {
+    margin: 0;
+}
+
+.tuner_top_block {
+    color: #ffffff;
+    font-size: 39px;
+    font-family: "Open Sans Light";
+    border-top: 5px solid #00ccc9;
+    border-left: 5px solid #00ccc9;
+    border-right: 5px solid #00ccc9;
+    border-bottom: none;
+    background-color: #000000;
+    line-height: 50px;
+    height: 120px;
+}
+
+.tuner_top_block strong {
+    font-family: "Open Sans - Extrabold";
+}
+
+.tuner_bot_block {
+    font-family: "Open Sans Light";
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000;
+    border-bottom: 2px solid #f5d600;
+    border-left: 2px solid #f5d600;
+    border-right: 2px solid #f5d600;
+    border-top: none;
+    background-color: #f5d600;
+    height: 110px;
+}
+
+.tuner_bot_block strong {
+    font-family: "Open Sans - Extrabold";
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.section-one {
+    height: 320px;
+    background-image: linear-gradient(to bottom, #f4e958 0%, #f5d600 100%);
+}
+
+.section-one_top-text {
+    color: #0081c7;
+    font-family: "Open Sans - Extrabold";
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-one-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-one-info_price__old-price {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    text-decoration: line-through;
+    text-transform: uppercase
+}
+
+.section-one-info_price__new-price {
+    color: #ffffff;
+    font-family: "Open Sans - Extrabold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.section-one-info_price__current-value {
+    color: #0081c7;
+    font-family: "Open Sans - Extrabold";
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 80px;
+}
+.section-one-info_price__current-currency{
+color: #0081c7;
+font-family: "Open Sans - Extrabold";
+font-size: 24px;
+font-weight: 400;
+line-height: 24px;
+}
