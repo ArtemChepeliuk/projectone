@@ -1,3 +1,11 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
 header {
     background-color: #02b3b7;
     background-image: url(../img/header_bg.png);
@@ -54,11 +62,13 @@ header {
     font-family: "Open Sans - Extrabold";
     font-size: 60px;
     line-height: 72px;
+    font-weight: 800;
 }
 
 .section-one {
     height: 320px;
     background-image: linear-gradient(to bottom, #f4e958 0%, #f5d600 100%);
+    padding: 45px 0;
 }
 
 .section-one_top-text {
@@ -74,6 +84,7 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 68px;
 }
 
 .section-one-info_price__old-price {
@@ -99,10 +110,93 @@ header {
     font-weight: 400;
     line-height: 80px;
 }
-.section-one-info_price__current-currency{
-color: #0081c7;
-font-family: "Open Sans - Extrabold";
-font-size: 24px;
-font-weight: 400;
-line-height: 24px;
+
+.section-one-info_price__current-currency {
+    color: #0081c7;
+    font-family: "Open Sans - Extrabold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-one-info_timer-text {
+    color: #000000;
+    font-family: "Open Sans - Extrabold";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.timer_section {
+    box-shadow: inset 0 -20px 0 rgba(0, 0, 0, 0.5), inset 0 0 42px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #bfc0c2 0%, #d8d9db 50%, #e5e5e5 100%);
+    padding: 0 10px;
+    margin: 0px 15px;
+}
+
+.timer_block {
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Open Sans - Extrabold";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 53px;
+}
+
+.timer_text {
+    font-family: "Open Sans Light";
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.section-one-info_timetobuy {
+    text-transform: uppercase;
+    color: #0081c7;
+    font-size: 18px;
+}
+
+.buy_time {
+    color: #000000;
+    font-family: "Open Sans Extrabold";
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.akcia {
+    font-family: "Open Sans";
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.akcia_value {
+    font-family: "Open Sans Extrabold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.akcia_blok {
+    border-radius: 10px;
+    border: 5px solid #ffffff;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.order_button {
+    color: #ffffff;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 280px;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 5px auto;
+    box-shadow: 0 5px 8px 2px rgba(1, 1, 1, 0.35);
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #6fb6ff 0%, #005f95 100%), linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #ffffff 50%, rgba(255, 255, 255, 0) 100%);
 }
